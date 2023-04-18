@@ -1,12 +1,12 @@
+body {
+  min-height: fit-content;
+  min-width: fit-content;
+}
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  min-height: fit-content;
-  min-width: fit-content;
-}
 .navbar {
   background-color: aquamarine;
 }
@@ -15,11 +15,22 @@ body {
   display: grid;
   justify-content: center;
   position: relative;
-  top: 35rem;
+  top: 20rem;
   margin-top: 2rem;
   background-color: aquamarine;
 }
 
 #ket {
   margin-top: -2rem;
+}
+
+.form {
+  position: relative;
+  top: 10rem;
+  justify-content: center;
+  display: grid;
+}
+
+.hn {
+  text-align: center;
 }
